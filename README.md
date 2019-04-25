@@ -1,9 +1,10 @@
 <img src='imgs/cassandra_elastic_docker.png' width='850' />
 
 
-# ELK_Cassandra
+
 
 # <i>Hello, World</i> integration of <u>Cassandra</u> and <u>Elastic</u> using <u>Docker</u> containers
+#####  https://www.youtube.com/watch?v=iT2Uv__rog4
 # Steps:
 ### 1. C* Docker
 ### 2. create & populate table
