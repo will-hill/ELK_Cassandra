@@ -1,3 +1,13 @@
+import scholarly
+proxies = {'http' : 'socks5://127.0.0.1:9050', 'https': 'socks5://127.0.0.1:9050'}
+scholarly.scholarly.use_proxy(**proxies)
+raw_results = scholarly.search_pubs_query('china virus')
+first_result = next(raw_results)
+
+print(first_result.bib)
+##
+
+
 from elasticsearch import Elasticsearch
 import scholarly
 import time

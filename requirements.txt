@@ -6,3 +6,5 @@ wordcloud==1.6.0
 scikit-learn==0.22.2.post1
 seaborn==0.10.0
 pyLDAvis==2.1.2
+PySocks==1.7.1
+git+https://github.com/OrganicIrradiation/scholarly.git
